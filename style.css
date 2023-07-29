@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  font-family: Belleza;
+}
+
+h1 {
+  margin: 5px 0;
+  font-size: 1.625rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 0.9375rem;
+}
+
+img {
+  width: 500px;
+  height: 80%;
+  object-fit: cover;
+}
+
+ion-icon {
+  position: relative;
+  top: 0.09375rem;
+  font-size: 1.125rem;
+}
+#container {
+  width: 130rem;
+  height: 180rem;
+  background-color: #cccccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box {
+  width: 15rem;
+  height: 15rem;
+  background-color: #f4efef;
+  border: 1px solid #dadada;
+  float: left;
+  margin: 0;
+  padding: 0.625rem;
+}
+
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: #f4efef;
+  z-index: 2;
+  display: none;
+}
+
+.col {
+  height: 100%;
+  padding: 2em;
+}
+
+.close-btn {
+  position: absolute;
+  right: 1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  color: #ffffff;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.product-view {
+  position: relative;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-img {
+  flex: 5;
+  padding-top: 0 3.75rem;
+}
+
+.product-name {
+  width: 100%;
+  height: 100%;
+  flex: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0 1.25rem; */
+}
+
+.product-name h1 {
+  font-size: 3.75rem;
+  letter-spacing: -0.125rem;
+}
+
+.cart-btn button {
+  background: #000;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 0.9375rem 2.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.suggestions p {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #7a7a7a;
+}
+
+.suggestions .box p {
+  margin: -0.9375rem 0 0 0;
+}
