@@ -1,4 +1,4 @@
-// Fetch books from data.json
+// Fetch products from data.json
 async function getProducts() {
   try {
     const response = await fetch("/data.json");
@@ -21,15 +21,15 @@ document.addEventListener("DOMContentLoaded", async function () {
   const modalProductName = document.querySelector(".modal .product-name h1");
   const modalProductInfo = document.querySelector(".modal .product-name p");
   const productContentOne = document.querySelector(
-    ".modal .content .content-one"
+    ".modal .product-content .content-one"
   );
   const productContentTwo = document.querySelector(
-    ".modal .content .content-two"
+    ".modal .product-content .content-two"
   );
 
   const boxCount = 12 * 12;
   const boxSize = 240;
-  const totalImages = 6;
+  const totalImages = 7;
   const columns = 12;
 
   const containerWidth = columns * boxSize;
@@ -81,8 +81,8 @@ document.addEventListener("DOMContentLoaded", async function () {
         gsap.set(modal, { display: "flex" });
         gsap.to(modal, { opacity: 1, duration: 0.4 });
         productImg.src = img.src;
-        modalProductName.textContent = product.info;
-        modalProductInfo.textContent = product.color;
+        modalProductName.textContent = product.color;
+        modalProductInfo.textContent = product.info;
         productContentOne.textContent = product.contentOne;
         productContentTwo.textContent = product.contentTwo;
       }
