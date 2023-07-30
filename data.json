@@ -1,0 +1,46 @@
+{
+    "products" : [
+    {
+      "info": "THE MVP",
+      "color": "Blue red",
+       "contentOne": "Fall in love with a new kind of matte. The creamy, whipped texture hugs lips with intense color in one precise swipe. This unique formula leaves lips feeling plush and comfy and not dry.",
+      "contentTwo": "Forget the fine lines and dryness of the past—get luxe and whipped liquid color in rich, head-turning hues that won’t suck the life outta your lips."
+    },
+    {
+      "info": "Riri",
+      "color": "Rose mauve nude",
+       "contentOne": "Fall in love with a new kind of matte. The creamy, whipped texture hugs lips with intense color in one precise swipe. This unique formula leaves lips feeling plush and comfy and not dry.",
+      "contentTwo": "Forget the fine lines and dryness of the past—get luxe and whipped liquid color in rich, head-turning hues that won’t suck the life outta your lips."
+    },
+    {
+      "info": "C-Suite Heart",
+      "color": "soft pink nude",
+       "contentOne": "Fall in love with a new kind of matte. The creamy, whipped texture hugs lips with intense color in one precise swipe. This unique formula leaves lips feeling plush and comfy and not dry.",
+      "contentTwo": "Forget the fine lines and dryness of the past—get luxe and whipped liquid color in rich, head-turning hues that won’t suck the life outta your lips."
+    },
+    {
+      "info": "Bread Winn'r",
+      "color": "chocolate brown",
+       "contentOne": "Fall in love with a new kind of matte. The creamy, whipped texture hugs lips with intense color in one precise swipe. This unique formula leaves lips feeling plush and comfy and not dry.",
+      "contentTwo": "Forget the fine lines and dryness of the past—get luxe and whipped liquid color in rich, head-turning hues that won’t suck the life outta your lips."
+    },
+    {
+      "info": "H.B.I.C",
+      "color": "deep garnet red",
+      "contentOne": "Fall in love with a new kind of matte. The creamy, whipped texture hugs lips with intense color in one precise swipe. This unique formula leaves lips feeling plush and comfy and not dry.",
+      "contentTwo": "Forget the fine lines and dryness of the past—get luxe and whipped liquid color in rich, head-turning hues that won’t suck the life outta your lips."
+    },
+    {
+      "info": "Pink Limo'scene",
+      "color": "vivid hot pink",
+      "contentOne": "Fall in love with a new kind of matte. The creamy, whipped texture hugs lips with intense color in one precise swipe. This unique formula leaves lips feeling plush and comfy and not dry.",
+      "contentTwo": "Forget the fine lines and dryness of the past—get luxe and whipped liquid color in rich, head-turning hues that won’t suck the life outta your lips."
+    },
+    {
+      "info": "Fuchsia Wife",
+      "color": "fuchsia",
+      "contentOne": "Splash on this lip stain that goes on glossy and leaves behind a soft tint—delivering instant hydration for an effortless, low-maintenance look.",
+      "contentTwo": "This is the lip stain that just hits different—giving you juicy, all-day hydration. This lip tint formula features an oil-in-water innovation with squalene, in a range of vibrant shades."
+    }
+  ]
+}

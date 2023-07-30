@@ -25,9 +25,9 @@ p {
 }
 
 img {
-  width: 500px;
-  height: 80%;
-  object-fit: cover;
+  width: 100%;
+  height: 70%;
+  object-fit: contain;
 }
 
 ion-icon {
@@ -35,6 +35,7 @@ ion-icon {
   top: 0.09375rem;
   font-size: 1.125rem;
 }
+
 #container {
   width: 130rem;
   height: 180rem;
@@ -53,6 +54,7 @@ ion-icon {
   float: left;
   margin: 0;
   padding: 0.625rem;
+  cursor: pointer;
 }
 
 .modal {
@@ -69,11 +71,13 @@ ion-icon {
 .col {
   height: 100%;
   padding: 2em;
+  width: 50%;
 }
 
 .close-btn {
   position: absolute;
   right: 1rem;
+  top: 1rem;
   width: 2.5rem;
   height: 2.5rem;
   display: flex;
@@ -94,7 +98,13 @@ ion-icon {
 
 .product-img {
   flex: 5;
-  padding-top: 0 3.75rem;
+  padding-top: 3.75rem;
+}
+
+.product-img .product-img-container img {
+  width: 60%;
+  height: 80%;
+  object-fit: contain;
 }
 
 .product-name {
@@ -104,12 +114,28 @@ ion-icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 0 1.25rem; */
 }
 
 .product-name h1 {
   font-size: 3.75rem;
   letter-spacing: -0.125rem;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+}
+
+.product-info .content {
+  max-width: 30vw;
+  margin-bottom: 5rem;
+  /* flex-grow: 1; */
+}
+
+.content p .content-one .content-two {
+  font-size: 1.5rem;
+  text-transform: capitalize;
 }
 
 .cart-btn button {
