@@ -1,4 +1,3 @@
-// Fetch products from data.json
 async function getProducts() {
   try {
     const response = await fetch("/data.json");
