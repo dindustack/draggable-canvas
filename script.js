@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", async function () {
   const modal = document.querySelector(".modal");
   const modalCloseBtn = document.querySelector(".close-btn");
   const productImg = document.querySelector(".product-img img");
-  const productName = document.querySelector(".product-name");
   const modalProductName = document.querySelector(".modal .product-name h1");
   const modalProductInfo = document.querySelector(".modal .product-name p");
   const productContentOne = document.querySelector(
@@ -90,6 +89,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   }
 
   modalCloseBtn.addEventListener("click", function () {
+    console.log("close");
     gsap.to(modal, {
       opacity: 0,
       duration: 0.4,
@@ -112,8 +112,8 @@ document.addEventListener("DOMContentLoaded", async function () {
 
   function onDragStart(e) {
     isContainerDragging = true;
-    startCoords.x = e.ClientX;
-    startCoords.y = e.ClientY;
+    startCoords.x = e.clientX;
+    startCoords.y = e.clientY;
     startTranslate.x = gsap.getProperty(container, "x");
     startTranslate.y = gsap.getProperty(container, "y");
     gsap.set(container, { cursor: "grabbing" });
@@ -124,14 +124,14 @@ document.addEventListener("DOMContentLoaded", async function () {
     if (!isContainerDragging) return;
     isContainerDragging = false;
     gsap.set(container, { cursor: "grab" });
-    gsap.set(container, { userSelect: "grab" });
+    gsap.set(container, { userSelect: "auto" });
   }
 
   function onDrag(e) {
     if (!isContainerDragging) return;
     e.preventDefault();
-    const deltaX = e.ClientX - startCoords.x;
-    const deltaY = e.ClientY - startCoords.y;
+    const deltaX = e.clientX - startCoords.x;
+    const deltaY = e.clientY - startCoords.y;
     const translateX = startTranslate.x + deltaX;
     const translateY = startTranslate.y + deltaY;
 
